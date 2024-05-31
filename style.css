@@ -46,11 +46,6 @@ section .container {
     text-align: left;
 }
 
-h2 {
-    color: #333;
-    font-size: 2em;
-}
-
 p {
     font-size: 1.1em;
     line-height: 1.8;

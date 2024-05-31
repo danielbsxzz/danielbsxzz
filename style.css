@@ -1,0 +1,70 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section#sobre {
+    background-color: #fff;
+}
+
+section .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+h2 {
+    color: #333;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    header .container,
+    section .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}

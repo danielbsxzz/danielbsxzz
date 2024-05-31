@@ -7,18 +7,23 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
 }
 
 header {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
+    width: 100%;
 }
 
 header .container {
     width: 80%;
     margin: 0 auto;
-    text-align: center;
 }
 
 h1 {
@@ -28,6 +33,7 @@ h1 {
 
 section {
     padding: 20px 0;
+    width: 100%;
 }
 
 section#sobre {
@@ -58,10 +64,6 @@ p {
 
     h1 {
         font-size: 2em;
-    }
-
-    h2 {
-        font-size: 1.5em;
     }
 
     p {
